@@ -1,0 +1,237 @@
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    //nav link
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        padding: 5px 30px;
+        transition: 0.5s;
+        &:hover {
+        font-size: 17px;
+        }
+    }    
+}
+
+@media (max-width:1200px) {
+
+    //productos
+    .caja-productos li {
+        width: 90%;
+        justify-content: space-around;
+        color: #ffff;
+        border-radius: 15px;
+        padding: 5px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+
+    //contacto
+    .contacto-titulo {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1000px) {
+
+    //nosotros
+    .caja-ubicacion {
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+
+    //productos
+    .caja-productos {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        gap: 30px;
+
+        li {
+            width: 90%;
+            justify-content: space-around;
+            color: #ffff;
+            border-radius: 15px;
+            padding: 5px;
+            margin: 15px;
+        }
+    }
+
+    //envios
+    .envio-img {
+        width: 75%;
+    }
+}
+
+@media (max-width:900px) {
+
+    //footer
+    footer 
+        h2{
+        font-size: 30px;
+        }
+}
+
+@media (max-width:800px) {
+    //contacto
+    .contacto-titulo {
+        font-size: 40px;
+    }
+    .formulario {
+        font-size: 16px;
+        width: 90%;
+    }
+}
+
+@media (max-width:768px) {
+
+    //nav
+    header {
+        position: static;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-link {       
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        padding: 5px 30px;
+        transition: 0.5s;
+        &:hover {
+            font-size: 17px;
+        }
+    }
+
+    //nosotros
+    .caja-ubicacion {
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    }
+    .nosotros-somos-img {
+        width: 100%;
+        height: 500px;
+    }
+
+    //productos
+    .caja-productos li {
+        width: 90%;
+        justify-content: space-around;
+        color: #ffff;
+        border-radius: 15px;
+        padding: 5px;
+        padding-bottom: 20px;
+        margin: 15px;
+    }   
+    .titulo {
+        font-size: 50px;
+    }
+
+    //envios
+    .animacion {
+        animation-duration: 3s;
+    }
+    .titulo__envios {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:600px) {
+    .titulo {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    //index
+    .index-img {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    //envios
+    .envio-img {width: 90%;
+    }
+
+    //footer
+    footer {
+        h2 {
+            font-size: 20px
+        }
+    }
+}
+
+
+
+@media (max-width:500px) {
+
+    //nosotros
+    .ubicacion a {
+        text-decoration: none;
+        font-size: 20px;
+        border: 3px #191919 solid;
+        padding: 10px;
+        border-radius: 15px;
+        color: #191919;
+        transition: .5s;
+        &:hover {
+            background-color: #191919;
+            color: #ffff;
+            padding: 12px 20px;
+        }
+    }
+
+    //productos
+    .caja-productos {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+        li {
+            width: 90%;
+            justify-content: space-around;
+            color: #ffff;
+            border-radius: 15px;
+            padding: 5px;
+            padding-bottom: 20px;
+            margin: 15px;
+        }    
+    }
+    .titulo {
+        font-size: 30px;
+    }
+
+    //contacto
+    .contacto-titulo {
+        font-size: 20px;
+    }
+    .field {
+        width: 75%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width:300px) {
+
+    //contacto
+    .contacto-titulo {
+        font-size: 16px;
+    }
+}
